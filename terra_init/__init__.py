@@ -9,6 +9,7 @@ from scipy.stats import pearsonr, spearmanr
 from glob import glob
 import pylab
 import matplotlib.pyplot as plt
+import terra_pandas
 
 
 display(HTML("<style>#notebook-container { width:100% ;}</style>"))
