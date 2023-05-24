@@ -1,3 +1,7 @@
 # dependencies
 
 pandas
+tqdm
+seaborn
+scipy
+terra_pandas
