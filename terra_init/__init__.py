@@ -29,4 +29,9 @@ params = {'legend.fontsize': '40',
           'pdf.fonttype': '42',
           'font.sans-serif': 'Helvetica'}
 pylab.rcParams.update(params)
-plt.style.use('seaborn-white')
+
+preferred_styles = ['seaborn-v0_8-white', 'seaborn-white']
+for style in preferred_styles:
+    if style in plt.style.available:
+        plt.style.use(style)
+        break
