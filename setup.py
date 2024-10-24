@@ -11,6 +11,8 @@ setup(name='terra_init',
                         "tqdm",
                         "scanpy",
                         "seaborn",
+                        "igraph",
+                        "leidenalg",
                         "scipy",
                         "terra_pandas"],
       )
